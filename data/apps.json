@@ -725,7 +725,7 @@
     "name": "Magnet",
     "description": "Simple window snapping app for macOS sold on the Mac App Store by CrowdCafe. Drag windows to screen edges or use shortcuts to snap them into place.",
     "category": "window-management",
-    "homepage": "https://crowdcafe.com",
+    "homepage": "https://apps.apple.com/us/app/id441258766?platform=mac",
     "license": "Commercial",
     "pricing": "Paid (one-time)",
     "native": true,

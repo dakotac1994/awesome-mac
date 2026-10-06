@@ -12,6 +12,7 @@ exclude = [
   "https://fly.io",  # bot-hostile to automated checks
   "itunes\\.apple\\.com",  # legacy App Store short links redirect inconsistently
   "apps\\.apple\\.com",  # App Store pages sometimes 403 automated checks; live for humans
+  "github\\.com/dakotac1994/polisher",  # private repo (404 for the public); listed at the owner's request
 ]
 # Be lenient with rate-limited hosts; retry before failing.
 max_retries = 3

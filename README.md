@@ -72,7 +72,7 @@ Snapping, tiling, and workspace tools for people who are done dragging windows a
 |---|---|---|---|---|
 | [AeroSpace](https://github.com/nikitabobko/AeroSpace) | i3-inspired tiling window manager for macOS with automatic tiling and workspaces. Sources are MIT-licensed. | MIT / Open source | Yes | No |
 | [Amethyst](https://ianyh.com/amethyst) | Free, open-source automatic tiling window manager for macOS inspired by XMonad. Tiles windows into layouts automatically without manual dragging. | MIT / Open source | Yes | Yes |
-| [Magnet](https://crowdcafe.com) | Simple window snapping app for macOS sold on the Mac App Store by CrowdCafe. Drag windows to screen edges or use shortcuts to snap them into place. | Paid (one-time) | No | Yes |
+| [Magnet](https://apps.apple.com/us/app/id441258766?platform=mac) | Simple window snapping app for macOS sold on the Mac App Store by CrowdCafe. Drag windows to screen edges or use shortcuts to snap them into place. | Paid (one-time) | No | Yes |
 | [Moom](https://manytricks.com/moom/) | Window manager from Many Tricks that resizes and moves windows via hover menus, shortcuts, and custom layouts. One-time purchase. | Paid (one-time) | No | Yes |
 | [Rectangle](https://rectangleapp.com) | Open-source window management app that snaps and resizes windows with keyboard shortcuts or drag. Free core with an optional paid Pro tier. | MIT / Freemium | Yes | Yes |
 | [yabai](https://github.com/koekeishiya/yabai) | Open-source tiling window manager for macOS configured via shell scripting, popular with keyboard-driven power users. MIT-licensed and highly scriptable. | MIT / Open source | Yes | No |
