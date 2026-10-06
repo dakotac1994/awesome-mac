@@ -1,0 +1,65 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Monthly link-rot check, 1st of each month at 07:00 UTC
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate apps.json
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          required = {"name", "description", "category", "homepage",
+                      "license", "pricing", "native", "verified", "verified_on"}
+          categories = {"productivity", "developer-tools", "utilities-menu-bar",
+                        "window-management", "media-design", "security-privacy",
+                        "ai-powered", "file-management", "terminal-shell",
+                        "system-performance", "note-taking-writing"}
+          pricing_values = {"Open source", "Free", "Freemium",
+                            "Paid (one-time)", "Subscription"}
+          path = "data/apps.json"
+          data = json.load(open(path))
+          assert isinstance(data, list) and data, f"{path} must be a non-empty list"
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"{path} entry {i} ({e.get('name')}) missing {missing}"
+              assert e["category"] in categories, f"{path} entry {i} bad category {e['category']}"
+              assert e["pricing"] in pricing_values, f"{path} entry {i} bad pricing {e['pricing']}"
+              assert isinstance(e["native"], bool), f"{path} entry {i} native not bool"
+              assert isinstance(e["verified"], bool), f"{path} entry {i} verified not bool"
+              assert e["homepage"].startswith("https://"), f"{path} entry {i} homepage must be https"
+              if "repo" in e:
+                  assert e["repo"].startswith("https://github.com/"), f"{path} entry {i} repo must be a github URL"
+          names = [e["name"] for e in data]
+          assert len(names) == len(set(names)), f"{path} duplicate names"
+          # README consistency: every entry name must appear in README.md
+          readme = open("README.md").read()
+          missing_readme = [n for n in names if n not in readme]
+          assert not missing_readme, f"README.md missing entries: {missing_readme}"
+          print(f"OK: {path}: {len(data)} entries validated, all present in README")
+          EOF

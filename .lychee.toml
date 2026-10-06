@@ -1,0 +1,18 @@
+# lychee link-checker config
+# Pre-emptive excludes for sites known to block automated checks.
+# NOTE: exclude entries are regexes — use domain-bare patterns for
+# bot-blocking hosts rather than full URLs.
+exclude = [
+  "https://www.producthunt.com",
+  "https://marktechpost.com",
+  "https://www.npmjs.com",
+  "https://npmjs.com",
+  "https://replit.com",  # bot-blocking (RemoteDisconnected on plain GET)
+  "https://platform.openai.com",  # 403 to automated checks; live for humans
+  "https://fly.io",  # bot-hostile to automated checks
+  "itunes\\.apple\\.com",  # legacy App Store short links redirect inconsistently
+  "apps\\.apple\\.com",  # App Store pages sometimes 403 automated checks; live for humans
+]
+# Be lenient with rate-limited hosts; retry before failing.
+max_retries = 3
+timeout = 30
