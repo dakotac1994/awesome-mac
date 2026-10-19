@@ -50,7 +50,7 @@ def main():
     lines = []
     lines.append("# Awesome Mac [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n")
     lines.append("> A curated, verified directory of the **best macOS apps and tools** — open-source, free, and paid, every entry tagged with its license and pricing model.\n")
-    lines.append(f"Every entry was checked against its official site, docs, or repo on **2026-10-06**. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.\n")
+    lines.append(f"Entries are checked against official sites, docs, or repos; verification dates are recorded per entry in `data/apps.json`. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.\n")
     lines.append(f"**{total} apps** across **{len(CATEGORIES)} categories** · {verified} verified · {oss} open-source.\n")
     lines.append("## Contents\n")
     for slug, title, _ in CATEGORIES:

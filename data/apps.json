@@ -799,5 +799,17 @@
     "native": true,
     "verified": true,
     "verified_on": "2026-10-06"
+  },
+  {
+    "name": "Glim",
+    "description": "Free, open-source macOS file viewer for Markdown, PDFs, images, JSON, CSV and source code in one workspace.",
+    "category": "file-management",
+    "homepage": "https://github.com/NeoPanic/Glim",
+    "repo": "https://github.com/NeoPanic/Glim",
+    "license": "MIT",
+    "pricing": "Free",
+    "native": true,
+    "verified": true,
+    "verified_on": "2026-10-19"
   }
 ]

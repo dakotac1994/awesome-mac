@@ -2,9 +2,9 @@
 
 > A curated, verified directory of the **best macOS apps and tools** — open-source, free, and paid, every entry tagged with its license and pricing model.
 
-Every entry was checked against its official site, docs, or repo on **2026-10-06**. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.
+Entries are checked against official sites, docs, or repos; verification dates are recorded per entry in `data/apps.json`. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.
 
-**71 apps** across **11 categories** · 71 verified · 24 open-source.
+**72 apps** across **11 categories** · 72 verified · 25 open-source.
 
 ## Contents
 
@@ -128,6 +128,7 @@ Alternative file managers, FTP/cloud clients, and file search utilities.
 | [Commander One](https://mac.eltima.com) | Swift-built dual-pane file manager with a built-in FTP client, archive support, and a terminal emulator; free with a paid PRO Pack for advanced features. | Freemium | No | Yes |
 | [Cyberduck](https://cyberduck.io) | Free, open-source FTP/SFTP/WebDAV/S3 browser with Cryptomator client-side encryption support; donation-supported development. | GPL-3.0 / Open source | Yes | Yes |
 | [ForkLift](https://binarynights.com) | Dual-pane file manager with FTP/SFTP/WebDAV and cloud-service connections plus folder sync and batch rename; one-time license. | Paid (one-time) | No | Yes |
+| [Glim](https://github.com/NeoPanic/Glim) | Free, open-source macOS file viewer for Markdown, PDFs, images, JSON, CSV and source code in one workspace. | MIT / Free | Yes | Yes |
 | [HoudahSpot](https://www.houdah.com) | Advanced file-search utility layering powerful multi-criteria filters, saved templates, and Quick Look on top of Spotlight; one-time license. | Paid (one-time) | No | Yes |
 | [Mountain Duck](https://mountainduck.io) | Mounts servers and cloud storage as local Finder volumes with smart sync and offline caching; one-time license from the Cyberduck team. | Paid (one-time) | No | Yes |
 | [Path Finder](https://cocoatech.com) | Long-running Finder replacement with dual-pane browsing, batch rename, folder sync, and a terminal drawer; subscription-first with a one-time license option. | Subscription | No | Yes |
