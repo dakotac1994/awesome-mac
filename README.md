@@ -4,7 +4,7 @@
 
 Every entry was checked against its official site, docs, or repo on **2026-10-06**. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.
 
-**71 apps** across **11 categories** · 71 verified · 24 open-source.
+**72 apps** across **11 categories** · 72 verified · 24 open-source.
 
 ## Contents
 
@@ -156,6 +156,7 @@ Menu-bar system monitors, disk cleaners, and battery/fan tools.
 | [coconutBattery](https://coconut-flavour.com) | Detailed battery health, cycle count, and capacity statistics for Macs and connected iDevices; free with a paid Plus edition for advanced data. | Freemium | No | Yes |
 | [DaisyDisk](https://daisydiskapp.com) | Gorgeous sunburst disk-space visualizer that finds storage hogs at a glance and deletes them with drag-and-drop; one-time license. | Paid (one-time) | No | Yes |
 | [iStat Menus](https://bjango.com) | Menu-bar system monitor for CPU, GPU, memory, network, sensors, fan speeds, and battery with customizable readouts; one-time purchase. | Paid (one-time) | No | Yes |
+| [MacClean](https://thulem.com/) | Native macOS cleaner for WeChat/QQ/WeCom clutter, Storage Map visualization, and Xcode/AI caches with review-before-delete; freemium with a one-time lifetime unlock. | Freemium | No | Yes |
 | [Macs Fan Control](https://crystalidea.com/macs-fan-control) | Monitors temperature sensors and takes manual control of fan speeds with sensor-based rules; free version with a paid Pro license for full control. | Freemium | No | Yes |
 | [OnyX](https://www.titanium-software.fr) | Veteran donationware maintenance utility exposing hidden macOS settings, cache cleaning, disk checks, and system scripts; free for over 20 years. | Free | No | Yes |
 
