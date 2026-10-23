@@ -799,5 +799,16 @@
     "native": true,
     "verified": true,
     "verified_on": "2026-10-06"
+  },
+  {
+    "name": "MacClean",
+    "description": "Native macOS cleaner for WeChat/QQ/WeCom clutter, Storage Map visualization, and Xcode/AI caches with review-before-delete; freemium with a one-time lifetime unlock.",
+    "category": "system-performance",
+    "homepage": "https://thulem.com/",
+    "license": "Commercial",
+    "pricing": "Freemium",
+    "native": true,
+    "verified": true,
+    "verified_on": "2026-10-23"
   }
 ]
