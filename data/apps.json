@@ -799,5 +799,17 @@
     "native": true,
     "verified": true,
     "verified_on": "2026-10-06"
+  },
+  {
+    "name": "LayoutKeeper",
+    "description": "Free, open-source native menu-bar app that restores windows to their original monitor, Space, and position when reconnecting external displays, with per-port display arrangement switching and Keep Awake.",
+    "category": "window-management",
+    "homepage": "https://github.com/tumingke0/LayoutKeeper",
+    "repo": "https://github.com/tumingke0/LayoutKeeper",
+    "license": "GPL-3.0",
+    "pricing": "Open source",
+    "native": true,
+    "verified": true,
+    "verified_on": "2026-10-27"
   }
 ]
