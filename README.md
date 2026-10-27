@@ -4,7 +4,7 @@
 
 Every entry was checked against its official site, docs, or repo on **2026-10-06**. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.
 
-**71 apps** across **11 categories** · 71 verified · 24 open-source.
+**72 apps** across **11 categories** · 72 verified · 25 open-source.
 
 ## Contents
 
@@ -72,6 +72,7 @@ Snapping, tiling, and workspace tools for people who are done dragging windows a
 |---|---|---|---|---|
 | [AeroSpace](https://github.com/nikitabobko/AeroSpace) | i3-inspired tiling window manager for macOS with automatic tiling and workspaces. Sources are MIT-licensed. | MIT / Open source | Yes | No |
 | [Amethyst](https://ianyh.com/amethyst) | Free, open-source automatic tiling window manager for macOS inspired by XMonad. Tiles windows into layouts automatically without manual dragging. | MIT / Open source | Yes | Yes |
+| [LayoutKeeper](https://github.com/tumingke0/LayoutKeeper) | Free, open-source native menu-bar app that restores windows to their original monitor, Space, and position when reconnecting external displays, with per-port display arrangement switching and Keep Awake. | GPL-3.0 / Open source | Yes | Yes |
 | [Magnet](https://apps.apple.com/us/app/id441258766?platform=mac) | Simple window snapping app for macOS sold on the Mac App Store by CrowdCafe. Drag windows to screen edges or use shortcuts to snap them into place. | Paid (one-time) | No | Yes |
 | [Moom](https://manytricks.com/moom/) | Window manager from Many Tricks that resizes and moves windows via hover menus, shortcuts, and custom layouts. One-time purchase. | Paid (one-time) | No | Yes |
 | [Rectangle](https://rectangleapp.com) | Open-source window management app that snaps and resizes windows with keyboard shortcuts or drag. Free core with an optional paid Pro tier. | MIT / Freemium | Yes | Yes |
