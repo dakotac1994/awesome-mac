@@ -651,6 +651,18 @@
     "verified_on": "2026-10-06"
   },
   {
+    "name": "Mel – the agentic terminal",
+    "description": "Terminal with a team of AI coding agents that plan, write and test code, with configurable approvals for edits and commands. Also on Windows and Linux, with a VS Code extension.",
+    "category": "terminal-shell",
+    "homepage": "https://www.openmel.dev",
+    "repo": null,
+    "license": "Proprietary",
+    "pricing": "Free with your own AI key, paid plans",
+    "native": false,
+    "verified": true,
+    "verified_on": "2026-11-11"
+  },
+  {
     "name": "Oh My Zsh",
     "description": "Community-driven framework for managing zsh configuration, with hundreds of plugins and themes. The standard way most developers set up their macOS shell.",
     "category": "terminal-shell",
