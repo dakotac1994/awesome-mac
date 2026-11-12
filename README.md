@@ -141,6 +141,7 @@ Terminal emulators, shells, prompts, and multiplexers that make the command line
 |---|---|---|---|---|
 | [Ghostty](https://ghostty.org) | Fast, native macOS terminal emulator written in Zig, focused on speed and native platform integration. A modern, GPU-accelerated alternative to iTerm2. | MIT / Open source | Yes | Yes |
 | [iTerm2](https://iterm2.com) | Long-standing, feature-rich terminal emulator for macOS and the most popular Terminal.app replacement. Supports split panes, search, autocomplete, and deep customization. | GPL-2.0 / Open source | Yes | Yes |
+| [Mel – the agentic terminal](https://www.openmel.dev) | Terminal with a team of AI coding agents that plan, write and test code, with configurable approvals for edits and commands. Also on Windows and Linux, with a VS Code extension. | Proprietary / Free with your own AI key, paid plans | No | No |
 | [Oh My Zsh](https://ohmyz.sh) | Community-driven framework for managing zsh configuration, with hundreds of plugins and themes. The standard way most developers set up their macOS shell. | MIT / Open source | Yes | No |
 | [Starship](https://starship.rs) | Minimal, fast, cross-shell prompt written in Rust that shows contextual info like git status and language versions. ISC-licensed and highly customizable. | ISC / Open source | Yes | No |
 | [tmux](https://tmux.github.io) | Terminal multiplexer that runs multiple shell sessions in one window, with detachable sessions that survive disconnects. A classic ISC-licensed Unix tool. | ISC / Open source | Yes | No |
