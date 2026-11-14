@@ -799,5 +799,16 @@
     "native": true,
     "verified": true,
     "verified_on": "2026-10-06"
+  },
+  {
+    "name": "Mac Ninja",
+    "description": "Native macOS menu bar utility that unloads idle browser tabs, lowers busy background apps' CPU priority, and shows live resource statistics; 7-day trial, $9.99/year or $24.99 lifetime for up to 3 Macs.",
+    "category": "system-performance",
+    "homepage": "https://macninjaa.com/",
+    "license": "Commercial",
+    "pricing": "Paid (one-time)",
+    "native": true,
+    "verified": true,
+    "verified_on": "2026-11-14"
   }
 ]
