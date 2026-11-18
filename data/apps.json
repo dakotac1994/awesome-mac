@@ -799,5 +799,16 @@
     "native": true,
     "verified": true,
     "verified_on": "2026-10-06"
+  },
+  {
+    "name": "Headphone Control",
+    "description": "Free native menu bar app (currently a public TestFlight beta) for switching noise cancelling/ambient sound, adjusting EQ and checking battery on Sony WH/WF-1000X Bluetooth headphones without the phone app.",
+    "category": "utilities-menu-bar",
+    "homepage": "https://kulaklikkontrol.github.io/",
+    "license": "Commercial",
+    "pricing": "Free",
+    "native": true,
+    "verified": true,
+    "verified_on": "2026-11-18"
   }
 ]
