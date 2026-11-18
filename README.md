@@ -4,7 +4,7 @@
 
 Every entry was checked against its official site, docs, or repo on **2026-10-06**. Entries that could not be verified on an official source carry an honest `verified: false` flag in the machine-readable catalog ([`data/apps.json`](data/apps.json)) instead of a guessed description; license terms are quoted from official repos/pages, never inferred.
 
-**71 apps** across **11 categories** · 71 verified · 24 open-source.
+**72 apps** across **11 categories** · 72 verified · 24 open-source.
 
 ## Contents
 
@@ -60,6 +60,7 @@ Menu-bar organizers, clipboard managers, automation, and screenshot tools that m
 |---|---|---|---|---|
 | [Bartender](https://www.macbartender.com) | Menu bar organizer that hides, rearranges, and shows menu bar icons on demand. One-time purchase around $16, with a 4-week trial. | Paid (one-time) | No | Yes |
 | [CleanShot X](https://cleanshot.com) | Native screenshot and screen-recording utility for macOS with annotations, scrolling capture, and cloud sharing. One-time purchase. | Paid (one-time) | No | Yes |
+| [Headphone Control](https://kulaklikkontrol.github.io/) | Free native menu bar app (currently a public TestFlight beta) for switching noise cancelling/ambient sound, adjusting EQ and checking battery on Sony WH/WF-1000X Bluetooth headphones without the phone app. | Free | No | Yes |
 | [Ice](https://github.com/jordanbaird/Ice) | Free, open-source menu bar manager for macOS (GPL-3.0) that hides and organizes menu bar icons. Adds a second 'Ice Bar' for notched MacBooks. | GPL-3.0 / Open source | Yes | Yes |
 | [Keyboard Maestro](https://www.keyboardmaestro.com) | Powerful macro and automation tool for macOS that can control nearly any app via hotkeys, triggers, and scripts. One-time purchase. | Paid (one-time) | No | Yes |
 | [Maccy](https://maccy.app) | Lightweight, open-source clipboard manager for macOS written natively in Swift. Keeps a searchable history of everything you copy. | MIT / Open source | Yes | Yes |
